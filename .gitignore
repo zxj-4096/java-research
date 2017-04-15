@@ -1,8 +1,1 @@
-
 *.class
-*.jar
-
-.settings
-.classpath
-.project
-target

@@ -1,0 +1,10 @@
+04-15 17:16:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "password" not found [42122-176]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:344)
+	at org.h2.message.DbException.get(DbException.java:178)
+	at org.h2.message.DbException.get(DbException.java:154)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3148)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3210)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:304)
+	at com.research.base.DemoConnection.createTable(DemoConnection.java:44)
+	at com.research.base.DemoConnection.main(DemoConnection.java:59)
